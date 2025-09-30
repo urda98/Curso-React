@@ -7,24 +7,24 @@ export default function Header()
     return(
         <Navbar bg="dark" variant="dark" expand="lg">
             <Container>
-                <Navbar.Brand as={Link} to="/">
+                <Navbar.Brand className="text-light" as={Link} to="/">
                         Proyecto 2025
 
                 </Navbar.Brand>
                 <Nav.Link as={Link} to="/">
-                        Home
+                        Home 
                 </Nav.Link>
-                <Nav.Link as={Link} to="/clientes">
-                        Clientes
+                <Nav.Link className="text-light" as={Link} to="/clientes">
+                        Clientes 
                 </Nav.Link>
-                <Nav.Link as={Link} to="/productos">
-                        Productos
+                <Nav.Link className="text-light" as={Link} to="/productos">
+                        Productos 
                 </Nav.Link>
-                <Nav.Link as={Link} to="/servicios">
-                        Servicios
+                <Nav.Link className="text-light" as={Link} to="/servicios">
+                        Servicios 
                 </Nav.Link>
-                <Nav.Link as={Link} to="/contacto">
-                        Contacto
+                <Nav.Link className="text-light" as={Link} to="/contacto">
+                        Contacto 
                 </Nav.Link>
             </Container>
         </Navbar>
